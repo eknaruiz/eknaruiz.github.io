@@ -1,0 +1,193 @@
+<html>
+    <head>
+        <title> Listas </title>
+    </head>
+    <style type="text/css">
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        header, nav, main, footer{
+            width: 960px;
+            color: #536493;
+            padding: 50px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        header{
+            /*width: 1280px;*/
+            height: 150px;
+            background-color: #ef5a6f;
+            /*color:#ef5a6f*/ 
+        }
+        nav{
+            background-color:#d4bdac;
+        }
+        main{
+            background-color: #fff1db;
+        }
+        footer{
+            background-color: #d4bdac;
+       }
+        section{
+            width: 650px;
+            background-color:  #d4bdac;
+            color: #ef5a6f;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 30px;
+        }
+        h2, h3, p{
+            margin-bottom: 15px;
+            color: #536493;
+        }
+        h1{
+            color: #fff1db;
+            text-align: center;
+        }
+
+        h5 {
+            color: darkblue;
+            text-align: center;
+        }
+
+        ul{
+            list-style-type:none;
+            text-align: center;
+        }
+         nav ul li{
+            width: 80px;
+            background-color: beige;
+            color: #536493;
+            margin-bottom: 10px;
+            padding: 10px;
+            text-align: center;
+            border-width: 3px;
+            border-color: #ef5a6f;
+            border-style: solid;
+            display: inline-block;
+            
+        }
+
+        a{
+            text-decoration: none;
+            color: darkblue;
+        }
+
+        ol, li, dt, dd{
+            color: darkblue;
+        }
+
+    </style>
+    <body>
+        <header>
+            <h1> Listas en HTML </h1>
+        </header>
+        
+        <nav>
+            <ul>
+                <li> <a href="miprimeraweb.html">Inicio</a></li>
+                <li><a href="listas.html">Listas</a></li>
+                <li><a href="enlaces.html">Enlaces</a></li>
+                <li><a href="tablas.html">Tablas</a></li>
+                <li><a href="imagenes.html">Imágenes</a></li>
+                <li><a href="audio.html">Audio</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="formularios.html">Formulario</a></li>
+                
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2> Lista ordenada </h2>
+                <ol type="a">
+                    <li> Sofi Gómez</li>
+                    <li> Beto Nuñez</li>
+                    <li> Julio Aguilar</li>
+                    <li> Karol López</li>
+                    <li> Leo Martínez</li>
+                </ol>
+            </section>
+            <section> 
+                <h2> Lista desordenada</h2>
+                <ul>
+                    <li> Mercedes</li>
+                    <li> Ferrari</li>
+                    <li> Lambo</li>
+                    <li> BMW</li>
+                    <li> Renault</li>
+                </ul>
+            </section>
+            <section> 
+                <h2> Lista mixta</h2>
+                <ol type="i">
+                    <li> España</li>
+                    <ul>
+                        <li> Mallorca</li>
+                        <li> Madrid</li>
+                        <li> Segovia</li>
+                        <li> Barcelona</li>
+                        <li> Balencia</li>
+                    </ul>
+                    <li> Argentina</li>
+                    <ul>
+                        <li> Buenos Aires</li>
+                        <li> Córdoba</li>
+                        <li> Rosario</li>
+                        <li> Santa Fe</li>
+                        <li> San Juan</li>
+                    </ul>
+                    <li> México</li>
+                    <ul>
+                        <li> Puebla</li>
+                        <ul> 
+                            <li> Atlixco</li>
+                            <li> Chignahuapan</li>
+                            <li> Zacatlán</li>
+                            <li> Cholula</li>
+                            <li> Huejotzingo</li>
+                        </ul>
+                        <li> Veracruz</li>
+                        <li> Oaxaca</li>
+                        <li> Monterey</li>
+                        <li> Jalisco</li>
+                    </ul>
+                    <li> Estados Unidos</li>
+                    <ul>
+                        <li> Texas</li>
+                        <li> Ohio</li>
+                        <li> New York</li>
+                        <li> Florida</li>
+                        <li> Los Ángeles</li>
+                    </ul>
+                    <li> Italia</li>
+                    <ul> 
+                        <li> Roma</li>
+                        <li> Venecia</li>
+                        <li> Florencia</li>
+                        <li> Milán</li>
+                        <li> Verona</li>
+                    </ul>
+                </ol>
+            </section>
+            <section>
+                <h2> Lista de conceptos</h2>
+                <dl>
+                    <dt><b>Usabilidad</b></dt>
+                    <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nulla libero, fermentum non nisi id, accumsan tempus dui. Curabitur libero nibh, fringilla non molestie non, ultrices ac velit. Quisque in ipsum elit. Nunc elementum aliquam condimentum. Mauris porta venenatis molestie. Phasellus hendrerit commodo dictum. Sed congue facilisis neque ultricies porttitor.</dd>
+                    <br>
+                    <dt><b>Accesibilidad</b></dt>
+                    <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tellus tellus, pulvinar ut ipsum suscipit, sollicitudin lacinia sem. Curabitur dignissim.</dd>
+                    <br>
+                    <dt><b>Interacción</b></dt>
+                    <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer auctor faucibus tortor sit amet rutrum. Suspendisse risus nisl, finibus sed rhoncus non, bibendum vel purus. Proin consectetur augue a dolor scelerisque ullamcorper. Sed eget nibh.</dd>
+                </dl>
+            </section>
+        </main>
+        <footer>
+            <h5>Elaborado por Eknaen Ruiz Enríquez</h5>
+        </footer>
+    </body>
+</html>
